@@ -1,0 +1,15 @@
+{
+  "unpublishedCollection": {
+    "name": "IdGenerator",
+    "pageId": "Custom Ids for table data",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "variables": [],
+    "userPermissions": []
+  },
+  "id": "Custom Ids for table data_IdGenerator",
+  "deleted": false,
+  "gitSyncId": "61e11a42eb0501052b9fab3e_61f641c49d6d6a6720c9977e"
+}

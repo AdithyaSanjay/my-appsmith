@@ -1,0 +1,15 @@
+{
+  "unpublishedCollection": {
+    "name": "Data",
+    "pageId": "Fetch Data based on queryparam",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "variables": [],
+    "userPermissions": []
+  },
+  "id": "Fetch Data based on queryparam_Data",
+  "deleted": false,
+  "gitSyncId": "61e11a42eb0501052b9fab3e_61f8c85a9d6d6a6720c9b916"
+}

@@ -1,0 +1,24 @@
+{
+  "unpublishedCollection": {
+    "name": "JSObject1",
+    "pageId": "Disable Row click action",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "variables": [
+      {
+        "name": "myVar1",
+        "value": []
+      },
+      {
+        "name": "myVar2",
+        "value": {}
+      }
+    ],
+    "userPermissions": []
+  },
+  "id": "Disable Row click action_JSObject1",
+  "deleted": false,
+  "gitSyncId": "61e11a42eb0501052b9fab3e_626f72678a368d6f1ef55208"
+}

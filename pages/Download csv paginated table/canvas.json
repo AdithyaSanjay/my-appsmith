@@ -1,0 +1,447 @@
+{
+  "unpublishedPage": {
+    "name": "Download csv paginated table",
+    "slug": "download-csv-paginated-table",
+    "layouts": [
+      {
+        "viewMode": false,
+        "dsl": {
+          "widgetName": "MainContainer",
+          "backgroundColor": "none",
+          "rightColumn": 1280,
+          "snapColumns": 64,
+          "detachFromLayout": true,
+          "widgetId": "0",
+          "topRow": 0,
+          "bottomRow": 870,
+          "containerStyle": "none",
+          "snapRows": 94,
+          "parentRowSpace": 1,
+          "type": "CANVAS_WIDGET",
+          "canExtend": true,
+          "version": 59,
+          "minHeight": 880,
+          "parentColumnSpace": 1,
+          "dynamicBindingPathList": [],
+          "leftColumn": 0,
+          "children": [
+            {
+              "boxShadow": "none",
+              "isVisibleDownload": true,
+              "iconSVG": "/static/media/icon.db8a9cbd.svg",
+              "topRow": 13,
+              "isSortable": true,
+              "onPageChange": "{{Api1.run();JSObject1.savetoArray()}}",
+              "type": "TABLE_WIDGET",
+              "animateLoading": true,
+              "dynamicBindingPathList": [
+                {
+                  "key": "tableData"
+                },
+                {
+                  "key": "primaryColumns.Column_1.computedValue"
+                },
+                {
+                  "key": "primaryColumns.Date.computedValue"
+                },
+                {
+                  "key": "primaryColumns.Description.computedValue"
+                },
+                {
+                  "key": "primaryColumns.Category.computedValue"
+                },
+                {
+                  "key": "primaryColumns.Amount.computedValue"
+                },
+                {
+                  "key": "primaryColumns.Account.computedValue"
+                },
+                {
+                  "key": "primaryColumns.Account_.computedValue"
+                },
+                {
+                  "key": "primaryColumns.Institution.computedValue"
+                },
+                {
+                  "key": "primaryColumns.rowIndex.computedValue"
+                },
+                {
+                  "key": "accentColor"
+                }
+              ],
+              "leftColumn": 7,
+              "delimiter": ",",
+              "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+              "isVisibleFilters": true,
+              "isVisible": true,
+              "enableClientSideSearch": true,
+              "version": 3,
+              "totalRecordsCount": 0,
+              "isLoading": false,
+              "childStylesheet": {
+                "button": {
+                  "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+                  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                  "boxShadow": "none"
+                },
+                "menuButton": {
+                  "menuColor": "{{appsmith.theme.colors.primaryColor}}",
+                  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                  "boxShadow": "none"
+                },
+                "iconButton": {
+                  "menuColor": "{{appsmith.theme.colors.primaryColor}}",
+                  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                  "boxShadow": "none"
+                }
+              },
+              "borderRadius": "0px",
+              "columnSizeMap": {
+                "task": 245,
+                "step": 62,
+                "status": 75
+              },
+              "widgetName": "Table1",
+              "defaultPageSize": 0,
+              "columnOrder": [
+                "Column_1",
+                "Date",
+                "Description",
+                "Category",
+                "Amount",
+                "Account",
+                "Account_",
+                "Institution",
+                "rowIndex"
+              ],
+              "dynamicPropertyPathList": [
+                {
+                  "key": "onPageChange"
+                }
+              ],
+              "displayName": "Table",
+              "bottomRow": 61,
+              "parentRowSpace": 10,
+              "defaultSelectedRow": "0",
+              "hideCard": false,
+              "parentColumnSpace": 18.1875,
+              "dynamicTriggerPathList": [
+                {
+                  "key": "onPageChange"
+                }
+              ],
+              "primaryColumns": {
+                "Column_1": {
+                  "index": 0,
+                  "width": 150,
+                  "id": "Column_1",
+                  "horizontalAlignment": "LEFT",
+                  "verticalAlignment": "CENTER",
+                  "columnType": "text",
+                  "textSize": "0.875rem",
+                  "enableFilter": true,
+                  "enableSort": true,
+                  "isVisible": true,
+                  "isDisabled": false,
+                  "isCellVisible": true,
+                  "isDerived": false,
+                  "label": "Column_1",
+                  "computedValue": "{{Table1.sanitizedTableData.map((currentRow) => ( currentRow.Column_1))}}",
+                  "borderRadius": "0px",
+                  "boxShadow": "none"
+                },
+                "Date": {
+                  "index": 1,
+                  "width": 150,
+                  "id": "Date",
+                  "horizontalAlignment": "LEFT",
+                  "verticalAlignment": "CENTER",
+                  "columnType": "text",
+                  "textSize": "0.875rem",
+                  "enableFilter": true,
+                  "enableSort": true,
+                  "isVisible": true,
+                  "isDisabled": false,
+                  "isCellVisible": true,
+                  "isDerived": false,
+                  "label": "Date",
+                  "computedValue": "{{Table1.sanitizedTableData.map((currentRow) => ( currentRow.Date))}}",
+                  "borderRadius": "0px",
+                  "boxShadow": "none"
+                },
+                "Description": {
+                  "index": 2,
+                  "width": 150,
+                  "id": "Description",
+                  "horizontalAlignment": "LEFT",
+                  "verticalAlignment": "CENTER",
+                  "columnType": "text",
+                  "textSize": "0.875rem",
+                  "enableFilter": true,
+                  "enableSort": true,
+                  "isVisible": true,
+                  "isDisabled": false,
+                  "isCellVisible": true,
+                  "isDerived": false,
+                  "label": "Description",
+                  "computedValue": "{{Table1.sanitizedTableData.map((currentRow) => ( currentRow.Description))}}",
+                  "borderRadius": "0px",
+                  "boxShadow": "none"
+                },
+                "Category": {
+                  "index": 3,
+                  "width": 150,
+                  "id": "Category",
+                  "horizontalAlignment": "LEFT",
+                  "verticalAlignment": "CENTER",
+                  "columnType": "text",
+                  "textSize": "0.875rem",
+                  "enableFilter": true,
+                  "enableSort": true,
+                  "isVisible": true,
+                  "isDisabled": false,
+                  "isCellVisible": true,
+                  "isDerived": false,
+                  "label": "Category",
+                  "computedValue": "{{Table1.sanitizedTableData.map((currentRow) => ( currentRow.Category))}}",
+                  "borderRadius": "0px",
+                  "boxShadow": "none"
+                },
+                "Amount": {
+                  "index": 4,
+                  "width": 150,
+                  "id": "Amount",
+                  "horizontalAlignment": "LEFT",
+                  "verticalAlignment": "CENTER",
+                  "columnType": "text",
+                  "textSize": "0.875rem",
+                  "enableFilter": true,
+                  "enableSort": true,
+                  "isVisible": true,
+                  "isDisabled": false,
+                  "isCellVisible": true,
+                  "isDerived": false,
+                  "label": "Amount",
+                  "computedValue": "{{Table1.sanitizedTableData.map((currentRow) => ( currentRow.Amount))}}",
+                  "borderRadius": "0px",
+                  "boxShadow": "none"
+                },
+                "Account": {
+                  "index": 5,
+                  "width": 150,
+                  "id": "Account",
+                  "horizontalAlignment": "LEFT",
+                  "verticalAlignment": "CENTER",
+                  "columnType": "text",
+                  "textSize": "0.875rem",
+                  "enableFilter": true,
+                  "enableSort": true,
+                  "isVisible": true,
+                  "isDisabled": false,
+                  "isCellVisible": true,
+                  "isDerived": false,
+                  "label": "Account",
+                  "computedValue": "{{Table1.sanitizedTableData.map((currentRow) => ( currentRow.Account))}}",
+                  "borderRadius": "0px",
+                  "boxShadow": "none"
+                },
+                "Account_": {
+                  "index": 6,
+                  "width": 150,
+                  "id": "Account_",
+                  "horizontalAlignment": "LEFT",
+                  "verticalAlignment": "CENTER",
+                  "columnType": "text",
+                  "textSize": "0.875rem",
+                  "enableFilter": true,
+                  "enableSort": true,
+                  "isVisible": true,
+                  "isDisabled": false,
+                  "isCellVisible": true,
+                  "isDerived": false,
+                  "label": "Account_",
+                  "computedValue": "{{Table1.sanitizedTableData.map((currentRow) => ( currentRow.Account_))}}",
+                  "borderRadius": "0px",
+                  "boxShadow": "none"
+                },
+                "Institution": {
+                  "index": 7,
+                  "width": 150,
+                  "id": "Institution",
+                  "horizontalAlignment": "LEFT",
+                  "verticalAlignment": "CENTER",
+                  "columnType": "text",
+                  "textSize": "0.875rem",
+                  "enableFilter": true,
+                  "enableSort": true,
+                  "isVisible": true,
+                  "isDisabled": false,
+                  "isCellVisible": true,
+                  "isDerived": false,
+                  "label": "Institution",
+                  "computedValue": "{{Table1.sanitizedTableData.map((currentRow) => ( currentRow.Institution))}}",
+                  "borderRadius": "0px",
+                  "boxShadow": "none"
+                },
+                "rowIndex": {
+                  "index": 8,
+                  "width": 150,
+                  "id": "rowIndex",
+                  "horizontalAlignment": "LEFT",
+                  "verticalAlignment": "CENTER",
+                  "columnType": "text",
+                  "textSize": "0.875rem",
+                  "enableFilter": true,
+                  "enableSort": true,
+                  "isVisible": true,
+                  "isDisabled": false,
+                  "isCellVisible": true,
+                  "isDerived": false,
+                  "label": "rowIndex",
+                  "computedValue": "{{Table1.sanitizedTableData.map((currentRow) => ( currentRow.rowIndex))}}",
+                  "borderRadius": "0px",
+                  "boxShadow": "none"
+                }
+              },
+              "key": "aprdfjmiw6",
+              "derivedColumns": {},
+              "labelTextSize": "0.875rem",
+              "rightColumn": 57,
+              "textSize": "0.875rem",
+              "widgetId": "xpv9ejg6zw",
+              "tableData": "{{Api1.data}}",
+              "label": "Data",
+              "searchKey": "",
+              "parentId": "0",
+              "serverSidePaginationEnabled": true,
+              "renderMode": "CANVAS",
+              "horizontalAlignment": "LEFT",
+              "isVisibleSearch": true,
+              "isVisiblePagination": true,
+              "verticalAlignment": "CENTER"
+            },
+            {
+              "boxShadow": "none",
+              "widgetName": "Button1",
+              "onClick": "{{JSObject1.fetchAllData()}}",
+              "buttonColor": "#03B365",
+              "dynamicPropertyPathList": [
+                {
+                  "key": "onClick"
+                }
+              ],
+              "displayName": "Button",
+              "iconSVG": "/static/media/icon.cca02633.svg",
+              "topRow": 7,
+              "bottomRow": 11,
+              "parentRowSpace": 10,
+              "type": "BUTTON_WIDGET",
+              "hideCard": false,
+              "animateLoading": true,
+              "parentColumnSpace": 18.1875,
+              "dynamicTriggerPathList": [
+                {
+                  "key": "onClick"
+                }
+              ],
+              "leftColumn": 41,
+              "dynamicBindingPathList": [],
+              "text": "Download Sheet Data as CSV",
+              "isDisabled": false,
+              "key": "gy4000v7m2",
+              "labelTextSize": "0.875rem",
+              "rightColumn": 57,
+              "isDefaultClickDisabled": true,
+              "widgetId": "1wbblubz8z",
+              "isVisible": true,
+              "recaptchaType": "V3",
+              "version": 1,
+              "parentId": "0",
+              "renderMode": "CANVAS",
+              "isLoading": false,
+              "borderRadius": "0px",
+              "buttonVariant": "PRIMARY",
+              "placement": "CENTER"
+            },
+            {
+              "boxShadow": "none",
+              "widgetName": "Button2",
+              "onClick": "{{JSObject1.clearStore()}}",
+              "buttonColor": "#03B365",
+              "displayName": "Button",
+              "iconSVG": "/static/media/icon.cca02633.svg",
+              "topRow": 7,
+              "bottomRow": 11,
+              "parentRowSpace": 10,
+              "type": "BUTTON_WIDGET",
+              "hideCard": false,
+              "animateLoading": true,
+              "parentColumnSpace": 18.1875,
+              "dynamicTriggerPathList": [
+                {
+                  "key": "onClick"
+                }
+              ],
+              "leftColumn": 7,
+              "dynamicBindingPathList": [],
+              "text": "Clear Store",
+              "isDisabled": false,
+              "key": "74hd0chrxg",
+              "labelTextSize": "0.875rem",
+              "rightColumn": 23,
+              "isDefaultClickDisabled": true,
+              "widgetId": "2gxeqa2e5m",
+              "isVisible": true,
+              "recaptchaType": "V3",
+              "version": 1,
+              "parentId": "0",
+              "renderMode": "CANVAS",
+              "isLoading": false,
+              "borderRadius": "0px",
+              "buttonVariant": "PRIMARY",
+              "placement": "CENTER"
+            }
+          ]
+        },
+        "layoutOnLoadActions": [
+          [
+            {
+              "id": "Download csv paginated table_Api1",
+              "name": "Api1",
+              "confirmBeforeExecute": false,
+              "pluginType": "SAAS",
+              "jsonPathKeys": [
+                "(Table1.pageNo - 1) * Table1.pageSize",
+                "Table1.pageSize"
+              ],
+              "timeoutInMillisecond": 10000
+            }
+          ],
+          [
+            {
+              "id": "Download csv paginated table_JSObject1.savetoArray",
+              "name": "JSObject1.savetoArray",
+              "collectionId": "Download csv paginated table_JSObject1",
+              "confirmBeforeExecute": false,
+              "pluginType": "JS",
+              "jsonPathKeys": [
+                "async () => {\n    let dataArray = appsmith.store.dataArray || [];\n    dataArray.push(Api1.data[0]);\n    storeValue(\"dataArray\", dataArray);\n    console.log(appsmith.store.dataArray);\n  }"
+              ],
+              "timeoutInMillisecond": 10000
+            }
+          ]
+        ],
+        "validOnPageLoadActions": true,
+        "id": "Download csv paginated table",
+        "deleted": false,
+        "policies": [],
+        "userPermissions": []
+      }
+    ],
+    "userPermissions": [],
+    "policies": [],
+    "isHidden": false
+  },
+  "deleted": false,
+  "gitSyncId": "633eec4a0fb4c32f2eca95c1_633eec4a0fb4c32f2eca95e5"
+}

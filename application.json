@@ -1,0 +1,99 @@
+{
+  "pages": [
+    {
+      "id": "External Filters",
+      "isDefault": false
+    },
+    {
+      "id": "Download csv paginated table",
+      "isDefault": false
+    },
+    {
+      "id": "Fetch Data based on queryparam",
+      "isDefault": false
+    },
+    {
+      "id": "Row Selection",
+      "isDefault": false
+    },
+    {
+      "id": "Row Actions",
+      "isDefault": false
+    },
+    {
+      "id": "How to add Data into the Table",
+      "isDefault": false
+    },
+    {
+      "id": "setInterval - Auto-Update",
+      "isDefault": false
+    },
+    {
+      "id": "Dynamic Columns",
+      "isDefault": false
+    },
+    {
+      "id": "Show data conditionally",
+      "isDefault": true
+    },
+    {
+      "id": "Pagination - GSheet",
+      "isDefault": false
+    },
+    {
+      "id": "Colored Table Cells",
+      "isDefault": false
+    },
+    {
+      "id": "Disable Row click action",
+      "isDefault": false
+    },
+    {
+      "id": "Table Vertical Display",
+      "isDefault": false
+    },
+    {
+      "id": "Table Scroll Only",
+      "isDefault": false
+    },
+    {
+      "id": "Reset Table Widget",
+      "isDefault": false
+    },
+    {
+      "id": "Custom Ids for table data",
+      "isDefault": false
+    },
+    {
+      "id": "Display CSV Revamp",
+      "isDefault": false
+    },
+    {
+      "id": "Display CSV",
+      "isDefault": false
+    },
+    {
+      "id": "Serverside searching",
+      "isDefault": false
+    }
+  ],
+  "viewMode": false,
+  "appIsExample": false,
+  "unreadCommentThreads": 0,
+  "clonedFromApplicationId": "61e11a42eb0501052b9fab3e",
+  "color": "#E4D8CC",
+  "icon": "bus",
+  "unpublishedAppLayout": {
+    "type": "DESKTOP"
+  },
+  "publishedAppLayout": {
+    "type": "DESKTOP"
+  },
+  "unpublishedCustomJSLibs": [],
+  "publishedCustomJSLibs": [],
+  "evaluationVersion": 2,
+  "applicationVersion": 1,
+  "forkingEnabled": true,
+  "isManualUpdate": false,
+  "deleted": false
+}

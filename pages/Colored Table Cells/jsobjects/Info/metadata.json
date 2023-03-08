@@ -1,0 +1,28 @@
+{
+  "unpublishedCollection": {
+    "name": "Info",
+    "pageId": "Colored Table Cells",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "variables": [
+      {
+        "name": "title",
+        "value": "\"Set table cell background color\""
+      },
+      {
+        "name": "overview",
+        "value": "\"This app demonstrates - how to conditionally change a cell background color?\""
+      },
+      {
+        "name": "steps",
+        "value": "`1. Use a query to fetch the movies data. (Take a look at fetch_movies_data query)\\n2. Change the cell background for vote_average column.\n\t`"
+      }
+    ],
+    "userPermissions": []
+  },
+  "id": "Colored Table Cells_Info",
+  "deleted": false,
+  "gitSyncId": "61e11a42eb0501052b9fab3e_622880ae06971d5d538946ed"
+}

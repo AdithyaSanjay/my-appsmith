@@ -1,0 +1,341 @@
+{
+  "unpublishedPage": {
+    "name": "Table Vertical Display",
+    "slug": "table-vertical-display",
+    "layouts": [
+      {
+        "viewMode": false,
+        "dsl": {
+          "widgetName": "MainContainer",
+          "backgroundColor": "none",
+          "rightColumn": 742,
+          "snapColumns": 64,
+          "detachFromLayout": true,
+          "widgetId": "0",
+          "topRow": 0,
+          "bottomRow": 710,
+          "containerStyle": "none",
+          "snapRows": 51,
+          "parentRowSpace": 1,
+          "type": "CANVAS_WIDGET",
+          "canExtend": true,
+          "version": 56,
+          "minHeight": 520,
+          "parentColumnSpace": 1,
+          "dynamicBindingPathList": [],
+          "leftColumn": 0,
+          "children": [
+            {
+              "widgetName": "Table1",
+              "defaultPageSize": 0,
+              "columnOrder": [
+                "key",
+                "Item_1",
+                "Item_2",
+                "Item_3",
+                "Item_4",
+                "Item_5",
+                "Item_6",
+                "Item_7",
+                "Item_8",
+                "Item_9",
+                "Item_10"
+              ],
+              "isVisibleDownload": false,
+              "dynamicPropertyPathList": [],
+              "displayName": "Table",
+              "iconSVG": "/static/media/icon.db8a9cbd.svg",
+              "topRow": 13,
+              "bottomRow": 69,
+              "isSortable": true,
+              "parentRowSpace": 10,
+              "type": "TABLE_WIDGET",
+              "defaultSelectedRow": "0",
+              "hideCard": false,
+              "animateLoading": true,
+              "parentColumnSpace": 11.40625,
+              "dynamicTriggerPathList": [],
+              "dynamicBindingPathList": [
+                {
+                  "key": "tableData"
+                },
+                {
+                  "key": "primaryColumns.key.computedValue"
+                },
+                {
+                  "key": "primaryColumns.Item_1.computedValue"
+                },
+                {
+                  "key": "primaryColumns.Item_2.computedValue"
+                },
+                {
+                  "key": "primaryColumns.Item_3.computedValue"
+                },
+                {
+                  "key": "primaryColumns.Item_4.computedValue"
+                },
+                {
+                  "key": "primaryColumns.Item_5.computedValue"
+                },
+                {
+                  "key": "primaryColumns.Item_6.computedValue"
+                },
+                {
+                  "key": "primaryColumns.Item_7.computedValue"
+                },
+                {
+                  "key": "primaryColumns.Item_8.computedValue"
+                },
+                {
+                  "key": "primaryColumns.Item_9.computedValue"
+                },
+                {
+                  "key": "primaryColumns.Item_10.computedValue"
+                }
+              ],
+              "leftColumn": 5,
+              "primaryColumns": {
+                "key": {
+                  "index": 0,
+                  "width": 150,
+                  "id": "key",
+                  "horizontalAlignment": "LEFT",
+                  "verticalAlignment": "CENTER",
+                  "columnType": "text",
+                  "textSize": "PARAGRAPH",
+                  "enableFilter": true,
+                  "enableSort": true,
+                  "isVisible": true,
+                  "isDisabled": false,
+                  "isCellVisible": true,
+                  "isDerived": false,
+                  "label": "key",
+                  "computedValue": "{{Table1.sanitizedTableData.map((currentRow) => ( currentRow.key))}}"
+                },
+                "Item_1": {
+                  "index": 1,
+                  "width": 150,
+                  "id": "Item_1",
+                  "horizontalAlignment": "LEFT",
+                  "verticalAlignment": "CENTER",
+                  "columnType": "text",
+                  "textSize": "PARAGRAPH",
+                  "enableFilter": true,
+                  "enableSort": true,
+                  "isVisible": true,
+                  "isDisabled": false,
+                  "isCellVisible": true,
+                  "isDerived": false,
+                  "label": "Item_1",
+                  "computedValue": "{{Table1.sanitizedTableData.map((currentRow) => ( currentRow.Item_1))}}"
+                },
+                "Item_2": {
+                  "index": 2,
+                  "width": 150,
+                  "id": "Item_2",
+                  "horizontalAlignment": "LEFT",
+                  "verticalAlignment": "CENTER",
+                  "columnType": "text",
+                  "textSize": "PARAGRAPH",
+                  "enableFilter": true,
+                  "enableSort": true,
+                  "isVisible": true,
+                  "isDisabled": false,
+                  "isCellVisible": true,
+                  "isDerived": false,
+                  "label": "Item_2",
+                  "computedValue": "{{Table1.sanitizedTableData.map((currentRow) => ( currentRow.Item_2))}}"
+                },
+                "Item_3": {
+                  "index": 3,
+                  "width": 150,
+                  "id": "Item_3",
+                  "horizontalAlignment": "LEFT",
+                  "verticalAlignment": "CENTER",
+                  "columnType": "text",
+                  "textSize": "PARAGRAPH",
+                  "enableFilter": true,
+                  "enableSort": true,
+                  "isVisible": true,
+                  "isDisabled": false,
+                  "isCellVisible": true,
+                  "isDerived": false,
+                  "label": "Item_3",
+                  "computedValue": "{{Table1.sanitizedTableData.map((currentRow) => ( currentRow.Item_3))}}"
+                },
+                "Item_4": {
+                  "index": 4,
+                  "width": 150,
+                  "id": "Item_4",
+                  "horizontalAlignment": "LEFT",
+                  "verticalAlignment": "CENTER",
+                  "columnType": "text",
+                  "textSize": "PARAGRAPH",
+                  "enableFilter": true,
+                  "enableSort": true,
+                  "isVisible": true,
+                  "isDisabled": false,
+                  "isCellVisible": true,
+                  "isDerived": false,
+                  "label": "Item_4",
+                  "computedValue": "{{Table1.sanitizedTableData.map((currentRow) => ( currentRow.Item_4))}}"
+                },
+                "Item_5": {
+                  "index": 5,
+                  "width": 150,
+                  "id": "Item_5",
+                  "horizontalAlignment": "LEFT",
+                  "verticalAlignment": "CENTER",
+                  "columnType": "text",
+                  "textSize": "PARAGRAPH",
+                  "enableFilter": true,
+                  "enableSort": true,
+                  "isVisible": true,
+                  "isDisabled": false,
+                  "isCellVisible": true,
+                  "isDerived": false,
+                  "label": "Item_5",
+                  "computedValue": "{{Table1.sanitizedTableData.map((currentRow) => ( currentRow.Item_5))}}"
+                },
+                "Item_6": {
+                  "index": 6,
+                  "width": 150,
+                  "id": "Item_6",
+                  "horizontalAlignment": "LEFT",
+                  "verticalAlignment": "CENTER",
+                  "columnType": "text",
+                  "textSize": "PARAGRAPH",
+                  "enableFilter": true,
+                  "enableSort": true,
+                  "isVisible": true,
+                  "isDisabled": false,
+                  "isCellVisible": true,
+                  "isDerived": false,
+                  "label": "Item_6",
+                  "computedValue": "{{Table1.sanitizedTableData.map((currentRow) => ( currentRow.Item_6))}}"
+                },
+                "Item_7": {
+                  "index": 7,
+                  "width": 150,
+                  "id": "Item_7",
+                  "horizontalAlignment": "LEFT",
+                  "verticalAlignment": "CENTER",
+                  "columnType": "text",
+                  "textSize": "PARAGRAPH",
+                  "enableFilter": true,
+                  "enableSort": true,
+                  "isVisible": true,
+                  "isDisabled": false,
+                  "isCellVisible": true,
+                  "isDerived": false,
+                  "label": "Item_7",
+                  "computedValue": "{{Table1.sanitizedTableData.map((currentRow) => ( currentRow.Item_7))}}"
+                },
+                "Item_8": {
+                  "index": 8,
+                  "width": 150,
+                  "id": "Item_8",
+                  "horizontalAlignment": "LEFT",
+                  "verticalAlignment": "CENTER",
+                  "columnType": "text",
+                  "textSize": "PARAGRAPH",
+                  "enableFilter": true,
+                  "enableSort": true,
+                  "isVisible": true,
+                  "isDisabled": false,
+                  "isCellVisible": true,
+                  "isDerived": false,
+                  "label": "Item_8",
+                  "computedValue": "{{Table1.sanitizedTableData.map((currentRow) => ( currentRow.Item_8))}}"
+                },
+                "Item_9": {
+                  "index": 9,
+                  "width": 150,
+                  "id": "Item_9",
+                  "horizontalAlignment": "LEFT",
+                  "verticalAlignment": "CENTER",
+                  "columnType": "text",
+                  "textSize": "PARAGRAPH",
+                  "enableFilter": true,
+                  "enableSort": true,
+                  "isVisible": true,
+                  "isDisabled": false,
+                  "isCellVisible": true,
+                  "isDerived": false,
+                  "label": "Item_9",
+                  "computedValue": "{{Table1.sanitizedTableData.map((currentRow) => ( currentRow.Item_9))}}"
+                },
+                "Item_10": {
+                  "index": 10,
+                  "width": 150,
+                  "id": "Item_10",
+                  "horizontalAlignment": "LEFT",
+                  "verticalAlignment": "CENTER",
+                  "columnType": "text",
+                  "textSize": "PARAGRAPH",
+                  "enableFilter": true,
+                  "enableSort": true,
+                  "isVisible": true,
+                  "isDisabled": false,
+                  "isCellVisible": true,
+                  "isDerived": false,
+                  "label": "Item_10",
+                  "computedValue": "{{Table1.sanitizedTableData.map((currentRow) => ( currentRow.Item_10))}}"
+                }
+              },
+              "delimiter": ",",
+              "key": "9w6plehls6",
+              "derivedColumns": {},
+              "rightColumn": 62,
+              "textSize": "PARAGRAPH",
+              "widgetId": "fabfnuatrm",
+              "isVisibleFilters": false,
+              "tableData": "{{JSObject1.myFun1()}}",
+              "isVisible": true,
+              "label": "Data",
+              "searchKey": "",
+              "enableClientSideSearch": true,
+              "version": 3,
+              "totalRecordsCount": 0,
+              "parentId": "0",
+              "serverSidePaginationEnabled": true,
+              "renderMode": "CANVAS",
+              "isLoading": false,
+              "horizontalAlignment": "LEFT",
+              "isVisibleSearch": false,
+              "isVisiblePagination": true,
+              "verticalAlignment": "CENTER",
+              "columnSizeMap": {
+                "task": 245,
+                "step": 62,
+                "status": 75
+              }
+            }
+          ]
+        },
+        "layoutOnLoadActions": [
+          [
+            {
+              "id": "Table Vertical Display_Query1",
+              "name": "Query1",
+              "confirmBeforeExecute": false,
+              "pluginType": "DB",
+              "jsonPathKeys": [],
+              "timeoutInMillisecond": 10000
+            }
+          ]
+        ],
+        "validOnPageLoadActions": true,
+        "id": "Table Vertical Display",
+        "deleted": false,
+        "policies": [],
+        "userPermissions": []
+      }
+    ],
+    "userPermissions": [],
+    "policies": [],
+    "isHidden": false
+  },
+  "deleted": false,
+  "gitSyncId": "633eec4a0fb4c32f2eca95c1_633eec4a0fb4c32f2eca95f5"
+}
